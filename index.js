@@ -1,10 +1,7 @@
-var isEven = require('is-even');
+const isOdd = require('is-odd');
  
-isEven(0);
-//=> true
-isEven('1');
-//=> false
-isEven(2);
-//=> true
-isEven('3');
-//=> false
+console.log(isOdd('1')); //=> true
+console.log(isOdd('3')); //=> true
+ 
+console.log(isOdd(0)); //=> false
+console.log(isOdd(2)); //=> false
